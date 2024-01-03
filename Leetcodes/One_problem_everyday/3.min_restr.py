@@ -12,7 +12,9 @@ class Solution:
                         longest = s[i: j + 1]
         return longest
 
+
 if __name__ == "__main__":
     s = "babad"
     S = Solution()
     print(S.longestPalindrome(s))
+
